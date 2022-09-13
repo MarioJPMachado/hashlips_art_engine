@@ -7,7 +7,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Your Collection";
 const description = "Remember to replace this description";
-const baseUri = "ipfs://NewUriToReplace";
+const baseUri = "ar://<hash>";
 
 const solanaMetadata = {
   symbol: "YC",
@@ -78,7 +78,11 @@ const background = {
   default: "#000000",
 };
 
-const extraMetadata = {};
+const extraMetadata = {
+  artist: "FirstName",
+  surname: "LastName",
+  external_url: "https://yourwebsite/",
+};
 
 const rarityDelimiter = "#";
 
